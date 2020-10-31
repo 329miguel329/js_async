@@ -1,0 +1,32 @@
+{
+  "name": "js_async",
+  "version": "1.0.0",
+  "description": "Asynchronous",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "callback:challenge": "node src/callback/challenge.js",
+    "promise": "node src/promise/index.js",
+    "promise:challenge": "node src/promise/challenge.js",
+    "async": "node src/async/index.js",
+    "async:challenge": "node src/async/challenge.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/329miguel329/js_async.git"
+  },
+  "keywords": [
+    "callbacks",
+    "async\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dpromise",
+    "async."
+  ],
+  "author": "Miguel Muñoz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/329miguel329/js_async/issues"
+  },
+  "homepage": "https://github.com/329miguel329/js_async#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
